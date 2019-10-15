@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sivadf1"
+		},
+		"AzureSqlDW1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"SourceBlobStorage_connectionString": {
+			"value": ""
+		},
+		"SqlServeronp_connectionString": {
+			"value": ""
+		},
+		"SqlServeronp_password": {
+			"value": ""
+		},
+		"SqlServeronp_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/db232d2c-55d9-4055-903b-3b39f8db7928/resourceGroups/siva_rg/providers/Microsoft.Storage/storageAccounts/sivalvblob"
+		}
+	}
+}
